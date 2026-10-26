@@ -1,0 +1,21 @@
+% Test template. Replace everything below with your real Overleaf resume,
+% then put each section's slot where that section's block goes.
+% The if/endif lines drop the heading when nothing in that section is picked.
+\documentclass[letterpaper,11pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{enumitem}
+\pagestyle{empty}
+
+\begin{document}
+
+((* if skills *))
+\section*{Technical Skills}
+((( skills )))
+((* endif *))
+
+((* if coursework *))
+\section*{Education}
+((( coursework )))
+((* endif *))
+
+\end{document}

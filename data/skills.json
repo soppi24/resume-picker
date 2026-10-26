@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "label": "Languages",
+      "items": [
+        { "id": "lang-01", "text": "Python", "default": true },
+        { "id": "lang-02", "text": "Java", "default": true },
+        { "id": "lang-03", "text": "C#", "default": false },
+        { "id": "lang-04", "text": "Rust", "default": false }
+      ]
+    },
+    {
+      "label": "Tools, Frameworks & Programs",
+      "items": [
+        { "id": "tool-01", "text": "Copilot Studio", "default": true },
+        { "id": "tool-02", "text": "LangChain", "default": true },
+        { "id": "tool-03", "text": "PyTorch", "default": false }
+      ]
+    },
+    {
+      "label": "Collaborative Tools",
+      "items": [
+        { "id": "collab-01", "text": "Git", "default": false },
+        { "id": "collab-02", "text": "Jira", "default": false }
+      ]
+    }
+  ]
+}

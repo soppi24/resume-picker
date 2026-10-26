@@ -1,0 +1,7 @@
+[
+  { "id": "course-01", "text": "Artificial Intelligence and Machine Learning", "default": true },
+  { "id": "course-02", "text": "Information Retrieval", "default": true },
+  { "id": "course-03", "text": "Natural Language Processing", "default": true },
+  { "id": "course-04", "text": "Management Information Systems & Business Analytics", "default": false },
+  { "id": "course-05", "text": "Accounting", "default": false }
+]
